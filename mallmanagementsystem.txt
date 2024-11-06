@@ -1,0 +1,13 @@
+CREATE DATABASE mallmanagementsystem;
+
+USE mallmanagementsystem;
+
+CREATE TABLE shops (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    brand VARCHAR(255),
+    rent VARCHAR(50),
+    manager VARCHAR(100),
+    shop_number VARCHAR(50),
+    phone VARCHAR(15),
+    renting_date DATE
+);
